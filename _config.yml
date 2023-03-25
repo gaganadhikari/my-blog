@@ -29,10 +29,11 @@ github_username:  gaganadhikari
 
 # Build settings
 theme: minima
-skin: solarized-light
 plugins:
   - jekyll-feed
 
+minima:
+  skin: solarized-light
 
 # Exclude from processing.
 # The following items will not be processed, by default.
