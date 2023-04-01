@@ -21,7 +21,7 @@ In Go, the length of a string is determined by the number of bytes required to r
     }
 
 > Here if we see normally 'énergy' has 6 characters but 'é' is a unicode character,
-> which is represented using 2 bits so le length we get is 7
+> which is represented using 2 bits so the length we get is 7
 
 
 To represent Unicode characters in Go, we use runes. A rune in Go is a 32-bit integer that represents a Unicode code point. However, we don't always represent characters with runes because most of the time, we only work with ASCII characters. Using 7 bits instead of 32 bits can save a lot of memory space, especially when dealing with large strings.
