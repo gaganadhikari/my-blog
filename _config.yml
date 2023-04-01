@@ -21,7 +21,7 @@
 title: Blogs
 email: shofukan.sic@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  A talking monley who writes gibberish
+  A talking monkey who writes gibberish
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: shofukan_sic
