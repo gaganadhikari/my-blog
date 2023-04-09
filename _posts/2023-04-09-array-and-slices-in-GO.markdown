@@ -27,7 +27,7 @@ Weird Right? but Go has another data type called slice which solves most the iss
 Slices in Go are a bit powerful then array because they are dynamic in nature and can grow or shink according to the requirement and any changes you make to a slice inside a function also affect the original slice because all parameter that gets passed in Go are passed by value.
 A slice value is a header that contains a pointer to an underlying array where the elements are actually stored, A side effect of passing the slice header is that it is faster to pass a slice to a function because Go does not need to make a copy of the slice and its elements, just the slice header.
 
-##### Creating slice:
+### Creating slice:
 
 you can create slice using `make()` or just like creating array without specifing the size.
 If you are creating an empty slice then using make() can be a good choice for you.
