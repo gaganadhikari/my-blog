@@ -4,7 +4,7 @@ title:  "Arrays and Slices in Go: Understanding the Differences"
 date:   2023-04-09 10:00:00 +0545
 categories: go
 ---
-###Arrays 
+### Arrays 
 
 when defining array in Go we also have to specify the size of the array or we can use `[...]` during array declaration so the Go complier itself can find the size of the array.
 
@@ -22,12 +22,12 @@ When you pass an array to a function, it creates an duplicate array inside the f
 
 Weird Right? but Go has another data type called slice which solves most the issue we face with array.
 
-###Slices
+### Slices
 
 Slices in Go are a bit powerful then array because they are dynamic in nature and can grow or shink according to the requirement and any changes you make to a slice inside a function also affect the original slice because all parameter that gets passed in Go are passed by value.
 A slice value is a header that contains a pointer to an underlying array where the elements are actually stored, A side effect of passing the slice header is that it is faster to pass a slice to a function because Go does not need to make a copy of the slice and its elements, just the slice header.
 
-#####creating slice:
+##### Creating slice:
 
 you can create slice using `make()` or just like creating array without specifing the size.
 If you are creating an empty slice then using make() can be a good choice for you.
