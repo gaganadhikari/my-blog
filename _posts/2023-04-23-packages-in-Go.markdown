@@ -19,7 +19,7 @@ Everything in Go lives in a package, every Go source file starts with a package 
 	
 Everything in Go source code is either a `package scope` or `function scope` 
 
-### Package level decelaration:
+### Package level declaration:
 
 If we declare anything out of our function before the `main()` function in the source file it is inside a package scope.
 We cannot use a short deceleration operator while declaring package scope `:=` and the declaration should always start with a keyword, making it easier to parse.
@@ -48,8 +48,9 @@ Go uses encapsulation(information hiding) when it comes to packages. whenever we
 	
 a package usually does not contain a single source file but multiple source files which contains exportable variables and functions.
 
-	fmt.Println()
-> ***fmt*** package contains ***Println*** function which can be used by other package
+`fmt.Println()`
+
+> fmt package contains Println function which can be used by other package
 > there are some things that start with lowercase letter inside fmt packgae that are private to the fmt
 	
 	
